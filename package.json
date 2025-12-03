@@ -1,0 +1,23 @@
+{
+  "name": "aws-crud-tasks",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "clean": "rm -rf dist",
+    "start": "node dist/index.js"
+  },
+  "dependencies": {
+    "@aws-sdk/client-dynamodb": "^3.674.0",
+    "@aws-sdk/lib-dynamodb": "^3.674.0",
+    "hono": "^4.6.0",
+    "uuid": "^11.0.3"
+  },
+  "devDependencies": {
+    "@types/node": "^22.7.4",
+    "@types/uuid": "^10.0.0",
+    "typescript": "^5.6.3"
+  }
+}
+
+
