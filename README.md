@@ -19,6 +19,4 @@ API extremamente simples de CRUD de tarefas usando:
 
 - `npm run build` – compila ts para `dist/`
 
-O handler exportado é `handler` em `dist/index.js`, que será usado pela função Lambda.
-
 
